@@ -32,8 +32,8 @@ from cli.utils import *
 console = Console()
 
 app = typer.Typer(
-    name="TradingAgents",
-    help="TradingAgents CLI: Multi-Agents LLM Financial Trading Framework",
+    name="TradingAdvisor",
+    help="Trading Advisor CLI: AI-Powered Multi-Agent Trading Advisory System",
     add_completion=True,  # Enable shell completion
 )
 
@@ -194,9 +194,9 @@ def update_display(layout, spinner_text=None):
     # Header with welcome message
     layout["header"].update(
         Panel(
-            "[bold green]Welcome to TradingAgents CLI[/bold green]\n"
+            "[bold green]Welcome to Trading Advisor CLI[/bold green]\n"
             "[dim]© [jerryzhang1011](https://github.com/jerryzhang1011/tradingAdvisor)[/dim]",
-            title="Welcome to TradingAgents",
+            title="Welcome to Trading Advisor",
             border_style="green",
             padding=(1, 2),
             expand=True,
@@ -403,7 +403,7 @@ def get_user_selections():
 
     # Create welcome box content
     welcome_content = f"{welcome_ascii}\n"
-    welcome_content += "[bold green]TradingAgents: Multi-Agents LLM Financial Trading Framework - CLI[/bold green]\n\n"
+    welcome_content += "[bold green]Trading Advisor: AI-Powered Multi-Agent Trading Advisory System[/bold green]\n\n"
     welcome_content += "[bold]Workflow Steps:[/bold]\n"
     welcome_content += "I. Analyst Team → II. Research Team → III. Trader → IV. Risk Management → V. Portfolio Management\n\n"
     welcome_content += (
@@ -415,8 +415,8 @@ def get_user_selections():
         welcome_content,
         border_style="green",
         padding=(1, 2),
-        title="Welcome to TradingAgents",
-        subtitle="Multi-Agents LLM Financial Trading Framework",
+        title="Welcome to Trading Advisor",
+        subtitle="AI-Powered Multi-Agent Trading Advisory System",
     )
     console.print(Align.center(welcome_box))
     console.print()  # Add a blank line after the welcome box

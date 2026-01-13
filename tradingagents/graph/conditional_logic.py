@@ -1,4 +1,4 @@
-# TradingAgents/graph/conditional_logic.py
+# Trading Advisor - graph/conditional_logic.py
 
 from tradingagents.agents.utils.agent_states import AgentState
 

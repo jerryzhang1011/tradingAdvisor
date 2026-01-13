@@ -1,5 +1,5 @@
 """
-Setup script for the TradingAgents package.
+Setup script for the Trading Advisor package.
 """
 
 from setuptools import setup, find_packages
@@ -7,8 +7,8 @@ from setuptools import setup, find_packages
 setup(
     name="tradingagents",
     version="0.1.0",
-    description="Multi-Agents LLM Financial Trading Framework",
-    author="TradingAgents Team",
+    description="Trading Advisor - AI-Powered Multi-Agent Trading Advisory System",
+    author="jerryzhang1011",
     author_email="",
     url="https://github.com/jerryzhang1011/tradingAdvisor",
     packages=find_packages(),
@@ -29,7 +29,7 @@ setup(
     python_requires=">=3.10",
     entry_points={
         "console_scripts": [
-            "tradingagents=cli.main:app",
+            "tradingadvisor=cli.main:app",
         ],
     },
     classifiers=[

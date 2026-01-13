@@ -1,4 +1,4 @@
-# TradingAgents/graph/reflection.py
+# Trading Advisor - graph/reflection.py
 
 from typing import Dict, Any
 from langchain_openai import ChatOpenAI

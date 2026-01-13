@@ -1,4 +1,4 @@
-# TradingAgents/graph/trading_graph.py
+# Trading Advisor - graph/trading_graph.py
 
 import os
 from pathlib import Path

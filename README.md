@@ -1,4 +1,4 @@
-# TradingAgents
+# Trading Advisor
 
 ```
   ______               ___             ___       __      _                
@@ -9,7 +9,7 @@
                              /____/                                       
 ```
 
-**Multi-Agents LLM Financial Trading Framework**
+**AI-Powered Multi-Agent Trading Advisory System**
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
@@ -19,7 +19,7 @@
 
 ## 📖 Overview
 
-TradingAgents is an advanced AI-powered financial trading framework that leverages multiple specialized LLM agents working collaboratively to analyze markets and make informed trading decisions. The system simulates a professional trading firm's decision-making process with distinct teams of analysts, researchers, traders, and risk managers.
+Trading Advisor is an advanced AI-powered financial trading advisory system that leverages multiple specialized LLM agents working collaboratively to analyze markets and provide informed trading recommendations. The system simulates a professional trading firm's decision-making process with distinct teams of analysts, researchers, traders, and risk managers.
 
 ### Key Features
 
@@ -41,7 +41,7 @@ TradingAgents is an advanced AI-powered financial trading framework that leverag
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                          TradingAgents Workflow                              │
+│                         Trading Advisor Workflow                             │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                              │
 │  I. Analyst Team  →  II. Research Team  →  III. Trader  →  IV. Risk Mgmt   │
@@ -150,7 +150,7 @@ GMAIL_APP_PW=your_gmail_app_password
 
 ### CLI Interface
 
-The easiest way to use TradingAgents is through the interactive CLI:
+The easiest way to use Trading Advisor is through the interactive CLI:
 
 ```bash
 python -m cli.main
@@ -188,7 +188,7 @@ config["data_vendors"] = {
     "news_data": "alpha_vantage",
 }
 
-# Initialize TradingAgents
+# Initialize Trading Advisor
 ta = TradingAgentsGraph(
     selected_analysts=["market", "social", "news", "fundamentals"],
     debug=True,
@@ -277,7 +277,7 @@ DEFAULT_CONFIG = {
 ## 📁 Project Structure
 
 ```
-TradingAgents/
+tradingAdvisor/
 ├── cli/                           # CLI application
 │   ├── main.py                    # CLI entry point with Rich UI
 │   ├── models.py                  # CLI data models
@@ -346,7 +346,7 @@ TradingAgents/
 
 ## 🧠 Memory & Reflection System
 
-TradingAgents includes a sophisticated memory system that allows agents to learn from past decisions:
+Trading Advisor includes a sophisticated memory system that allows agents to learn from past decisions:
 
 ```python
 # After a trade is executed and returns are known
@@ -376,7 +376,7 @@ After running an analysis, you'll receive:
 
 Results are saved to:
 - `./results/{TICKER}/{DATE}/reports/` - Individual report markdown files
-- `./eval_results/{TICKER}/TradingAgentsStrategy_logs/` - Full state JSON logs
+- `./eval_results/{TICKER}/strategy_logs/` - Full state JSON logs
 
 ---
 

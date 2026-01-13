@@ -1,4 +1,4 @@
-# TradingAgents/graph/signal_processing.py
+# Trading Advisor - graph/signal_processing.py
 
 from langchain_openai import ChatOpenAI
 

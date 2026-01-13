@@ -1,4 +1,4 @@
-# TradingAgents/graph/propagation.py
+# Trading Advisor - graph/propagation.py
 
 from typing import Dict, Any
 from tradingagents.agents.utils.agent_states import (
