@@ -414,17 +414,6 @@ Results are saved to:
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
 ## ⚠️ Disclaimer
 
 This software is for educational and research purposes only. It is not intended to be used as financial advice. Trading stocks involves risk, and you should consult with a qualified financial advisor before making any investment decisions. The authors are not responsible for any financial losses incurred through the use of this software.
