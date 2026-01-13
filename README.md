@@ -403,15 +403,6 @@ Results are saved to:
 | `rich` | Beautiful terminal output |
 | `questionary` | Interactive prompts |
 
-### Optional Dependencies
-
-| Package | Purpose |
-|---------|---------|
-| `feedparser` | RSS feed parsing |
-| `finnhub-python` | Alternative market data |
-| `akshare` | Chinese market data |
-| `tushare` | Chinese market data |
-
 ---
 
 ## ⚠️ Disclaimer
