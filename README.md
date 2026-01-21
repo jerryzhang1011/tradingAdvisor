@@ -15,12 +15,9 @@
 
 ## Overview
 
-Trading Advisor simulates a trading firm's workflow with multiple specialized agents:
-- Analysts: technical / fundamentals / news / sentiment
-- Researchers: bull vs bear debate + synthesis
-- Trader: converts research to an actionable plan
-- Risk management: multi-perspective review
-- Memory/reflection: learns from past outcomes (ChromaDB)
+Trading Advisor is an AI-powered multi-agent system that acts as a comprehensive algorithmic trading team. It automates the entire investment research process by simulating the workflow of human professionals.
+
+The system employs specialized agents for distinct roles—including data analysts, adversarial researchers (bull/bear debaters), execution traders, and risk managers. Through a structured pipeline of data collection, rigorous debate, plan formulation, and multi-perspective risk assessment, the collective agents deliver a final, vetted BUY, SELL, or HOLD signal. It supports various LLM backends and incorporates long-term memory for continuous improvement.
 
 Supported LLM backends include OpenAI / Anthropic / Google Gemini / Ollama / OpenRouter (depending on your config).
 
