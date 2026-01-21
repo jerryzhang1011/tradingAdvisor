@@ -35,6 +35,8 @@ Market data → Analyst reports → Bull/Bear debate → Trading plan → Risk d
 - Trader turns the view into a concrete action/plan.
 - Risk team debates the plan (aggressive / conservative / neutral) and a risk manager makes the final call.
 
+![](./workflow.png)
+
 ## Quick start
 
 ### Install
